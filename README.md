@@ -1,27 +1,42 @@
-# Template repository
+# Kairos
+![Workflow result](https://github.com/GuilhE/Kairos/workflows/Check/badge.svg)
 
-Template repository for the Jetpack Compose [#AndroidDevChallenge](https://developer.android.com/dev-challenge).
+<img src="/media/banner.png">
 
-## Getting started
-Copy this repository by pressing the "Use this template" button in Github.
-Clone your repository and open it in the latest [Android Studio (Canary build)](https://developer.android.com/studio/preview).
+## :scroll: Description
 
-## Submission requirements
-- Follow the challenge description on the project website: [developer.android.com/dev-challenge](https://developer.android.com/dev-challenge)
-- All UI should be written using Jetpack Compose
-- The Github Actions workflow should complete successfully
-- Include two screenshots of your submission in the [results](results) folder. The names should be
-  screenshot_1.png and screenshot_2.png.
-- Include a screen record of your submission in the [results](results) folder. The name should be
-  video.mp4
-- Replace the contents of [README.md](README.md) with the contents of [README-template.md](README-template.md) and fill out the template.
+Android Dev Challenge Finale ([week #4](https://android-developers.googleblog.com/2021/03/android-dev-challenge-4.html)) submission.
 
-## Code formatting
-The CI uses [Spotless](https://github.com/diffplug/spotless) to check if your code is formatted correctly and contains the right licenses.
-Internally, Spotless uses [ktlint](https://github.com/pinterest/ktlint) to check the formatting of your code.
-To set up ktlint correctly with Android Studio, follow one of the [listed setup options](https://github.com/pinterest/ktlint#-with-intellij-idea).
+<img src="/media/interaction_clock_sample.gif" width="260"> <img src="/media/interaction_top.gif" width="260"> <img src="/media/interaction_location_alt.gif" width="260">
+<img src="/media/help_scroll_vertical.png" width="260"> <img src="/media/help_swipe_down.png" width="260"> <img src="/media/help_tap.png" width="260">
 
-Before committing your code, run `./gradlew app:spotlessApply` to automatically format your code.
+For now, all weather data will be mocked.
+
+## :camera_flash: Screenshots
+
+### Interaction:
+
+<img src="/media/forecast_good.gif" width="200"> <img src="/media/forecast_bad.gif" width="200"> <img src="/media/interaction_top2.gif" width="200"> <img src="/media/interaction_location.gif" width="200">
+
+### Samples:
+<img src="/media/sample1.png" width="260"> <img src="/media/sample2.png" width="260"> <img src="/media/sample3.png" width="260">
+
+### Light/Dark support:
+<img src="/media/sample_light.png" width="260"> <img src="/media/sample_dark.png" width="260">
+
+### Accessibility support:
+<img src="/media/accessibility1.png" width="260"> <img src="/media/accessibility2.png" width="260"> <img src="/media/accessibility3.png" width="260">
+
+When [TalkBack](https://support.google.com/accessibility/android/answer/6007100?hl=pt) is active:
+- Swipe and hold (2s) for 24 hours forecast
+- Tap in location or upcoming days
+
+## :bulb: Motivation and Context
+
+Inspired in [Solar](http://thisissolar.com/) app, one of the most beautiful and simple weather apps I've used so far. Unfortunately Solar is no longer available so this is my modest tribute!
+
+Weather icons from [Fatkhul Karim](https://www.iconfinder.com/fatkhulkarim).  
+Gesture icons from [Jeff Portaro](https://creativemarket.com/jeffportaro?u=pixel-buddha).
 
 ## License
 ```

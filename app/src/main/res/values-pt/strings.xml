@@ -1,0 +1,20 @@
+<resources>
+    <string name="error_data">Tempestade forte destruiu a informação…</string>
+
+    <string name="max">Máximo</string>
+    <string name="min">Mínimo</string>
+    <string name="celsius">Graus célsius</string>
+
+    <string name="thunder">Trovoada</string>
+    <string name="foggy">Nevoeiro</string>
+    <string name="overcast">Nublado</string>
+    <string name="partly_cloud">Pouco nublado</string>
+    <string name="heavy_rain">Chuva forte</string>
+    <string name="moderate_rain">Chuva moderada</string>
+    <string name="light_rain">Chuva ligeira</string>
+    <string name="snow">Neve</string>
+    <string name="light_snow">Neve ligeira</string>
+    <string name="clear">Limpo</string>
+
+    <string name="btn_location">Actualizar localização</string>
+</resources>
