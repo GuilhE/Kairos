@@ -28,7 +28,7 @@ For now, all weather data will be mocked.
 <img src="/media/accessibility1.png" width="260"> <img src="/media/accessibility2.png" width="260"> <img src="/media/accessibility3.png" width="260">
 
 When [TalkBack](https://support.google.com/accessibility/android/answer/6007100?hl=pt) is active:
-- Swipe and hold (2s) for 24 hours forecast
+- Scroll vertically and hold (2s) for 24 hours forecast
 - Tap in location or upcoming days
 
 ## :bulb: Motivation and Context
